@@ -1,6 +1,9 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 :root {
   --background: #ffffff;
@@ -19,3 +22,50 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.bg{
+  background: linear-gradient(top , transparent 0% , rgba(0,0,0, 0.8) 100%);
+}
+
+.btn{
+  color:transparent;
+  border: 0.2rem solid #ffffff ;
+ 
+  font-size: 16px;
+  color:#ffffff ;
+  letter-spacing: 0.1rem;
+  
+}
+
+.btn:hover{
+   color: black;
+   background-color: #ffffff;
+   transition: all 0.5s linear;
+}
+.icons {
+@apply  border-2 border-[#FFF] p-2 rounded-full
+}
+
+.link{
+  @apply text-[18px] font-sans font-medium
+}
+
+
+input,
+textarea
+ {
+  @apply bg-transparent py-4 px-2 font-mons text-[#333333] uppercase tracking-wider leading-5 border-b border-[#333333] hover:outline-none visited:outline-none
+}
+textarea {
+  @apply bg-transparent py-4 px-2 font-mons text-[#333333] uppercase tracking-wider leading-5 border-b border-[#39b54a] outline-none
+}
+.submit{
+  @apply bg-[#39b54a] px-2 py-4 font-mons leading-5 tracking-widest uppercase font-semibold
+}
+
+  .heading{
+    @apply text-[#39b54a] font-mons tracking-wider leading-5 font-semibold text-[16px]
+  }
+.para{
+ @apply text-[#333333] leading-8 font-mons tracking-wider
+}  
