@@ -14,7 +14,7 @@ const Hero = () => {
         <h2 className="text-grey xs:text-xs sm:text-[16px] uppercase tracking-[0.3rem] font-mons font-medium mb-1   xs:text-center lg:text-left" >
           Welcome to Glint
         </h2>
-        <h1 className="xs:text-center sm:text-left xs:text-[28px] sm:text-[36px] lg:text-[63px] text-[##FFFFFF] sm:leading-[1.333] font-mons font-bold tracking-[0.1rem]">
+        <h1 className="xs:text-center sm:text-left xs:text-[28px] sm:text-[36px] lg:text-[63px] text-[#FFFFFF] sm:leading-[1.333] font-mons font-bold tracking-[0.1rem]">
           We are a creative group <br className="xs:hidden sm:inline" />
           of people who design <br className="xs:hidden sm:inline"/>
           influential brands and <br className="xs:hidden sm:inline" />
